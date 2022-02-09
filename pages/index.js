@@ -9,7 +9,7 @@ export default function Home() {
         <title>David's blog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header title="Welcome to my blog" />
+      <Header logo="src" title="Welcome to my blog" />
       <main>
         
         <p className="description">
