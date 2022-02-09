@@ -9,9 +9,9 @@ export default function Home() {
         <title>David's blog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Header title="Welcome to my blog" />
       <main>
-        <Header title="Welcome to my blog" />
+        
         <p className="description">
           test! commit
         </p>
