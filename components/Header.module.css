@@ -1,6 +1,13 @@
+:root {
+    --border-color: 1px solid #f0f0f0;
+}
+
 .header {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    border-bottom: var(--border-color);
 }
+
+
 
