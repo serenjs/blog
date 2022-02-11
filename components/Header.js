@@ -1,10 +1,11 @@
 import styles from './Header.module.css'
 
-export default function Header({ title }, { logo }) {
+export default function Header({ title }) {
   return (
   <div className={styles.header}>
-    <div className='logo'>{logo}</div>
-  <h1 className="title">{title}</h1>
+  <h4 className='brand'>{title}</h1>
+  <div className='theme-switcher'></div>
+  <div className='menu'></div>
   </div>
   );
 }
